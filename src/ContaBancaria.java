@@ -6,6 +6,23 @@ public class ContaBancaria {
     private double saldoConta;
     public String titular;
 
+    public void depositar(double valor){
+        this.saldoConta += valor;
+        System.out.println("Deposito realizado");
+    }
+
+    public void sacar(double valor){
+        if (valor <= this.saldoConta){
+            this.saldoConta -= valor;
+        } else {
+            System.out.println("Saldo Indisponivel");
+        }
+    }
+
+    public void consultarSaldo(){
+        System.out.println("O saldo da conta e de: " + this.saldoConta);
+    }
+
     public int getNumeroConta() {
         return numeroConta;
     }
@@ -16,5 +33,9 @@ public class ContaBancaria {
 
     public void setNumeroConta(int numeroConta) {
         this.numeroConta = numeroConta;
+    }
+
+    public void setSaldoConta(double saldoConta) {
+        this.saldoConta = saldoConta;
     }
 }

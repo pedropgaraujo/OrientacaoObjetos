@@ -21,9 +21,9 @@ public class Main {
         musica.exibirFichaTecnica();
         //4 - Crie uma classe Carro com atributos modelo, ano, cor e métodos para exibir a ficha técnica e calcular a idade do carro.
         Carro carro = new Carro();
-        carro.modelo="Audi";
-        carro.ano=2000;
-        carro.cor="Preto";
+//        carro.modelo="Audi";
+//        carro.ano=2000;
+//        carro.cor="Preto";
         carro.exibirFichaCarro();
         carro.calcularIdade();
         carro.exibirFichaCarro();
@@ -75,6 +75,32 @@ public class Main {
         Adicione um méto_do exibirDetalhes que imprime o título e o autor do livro.
          */
         musica.exibirDetalhes();
+
+        carro.definirModelo("Chevet");
+        carro.definirPrecos(200.0,156.0,560.0);
+        carro.exibirInfo();
+
+        Gato gato = new Gato();
+        Cachorro cachorro = new Cachorro();
+        Animal animal = new Animal();
+
+        animal.emitirSom();
+        gato.arranharMoveis();
+        gato.emitirSom();
+        cachorro.abanarRabo();
+        cachorro.emitirSom();
+
+        ContaCorrente contaC = new ContaCorrente();
+        contaC.consultarSaldo();
+        contaC.setSaldoConta(150.2);
+        contaC.consultarSaldo();
+        contaC.cobrarTarifaMensal(20);
+        contaC.consultarSaldo();
+        contaC.sacar(30.2);
+        contaC.consultarSaldo();
+        contaC.depositar(100);
+        contaC.consultarSaldo();
+
 
     }
 }
