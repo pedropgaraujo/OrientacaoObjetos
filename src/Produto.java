@@ -4,13 +4,27 @@ Utilize métodos getters e setters para acessar e modificar esses atributos.
 Adicione um méto_do aplicarDesconto que recebe um valor percentual e reduz o preço do produto.
  */
 
-public class Produto {
+public class Produto implements Vendavel{
     private String nome;
     private double preco;
+    private double precoUnitarrio;
 
-    public void aplicarDesconto(double valor){
-        this.preco = preco - ((preco/100)*valor);
+    public double getPrecoUnitarrio() {
+        return precoUnitarrio;
     }
+
+    public void setPrecoUnitarrio(double precoUnitarrio) {
+        this.precoUnitarrio = precoUnitarrio;
+    }
+
+    @Override
+    public double calcularPrecoTotal(int quantidade) {
+        return precoUnitarrio*quantidade;
+    }
+
+    public void aplicarDesconto(double percentualDesconto){
+        precoUnitarrio -= precoUnitarrio*(percentualDesconto/100.0);
+        }
 
     public String getNome() {
         return nome;

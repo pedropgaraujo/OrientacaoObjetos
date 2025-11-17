@@ -101,6 +101,24 @@ public class Main {
         contaC.depositar(100);
         contaC.consultarSaldo();
 
+        ConversorMoeda conversor = new ConversorMoeda();
+        conversor.converterDolarParaReal(50);
 
+        CalculadoraSalaRetangular calculadora2 = new CalculadoraSalaRetangular();
+        calculadora2.calcularArea(5, 8);
+        calculadora2.calcularPerimetro(5, 8);
+
+        TabuadaMultiplicacao tabuada = new TabuadaMultiplicacao();
+        tabuada.mostrarTabuada(7);
+
+        ConversorTemperatura conversor2 = new ConversorTemperaturaPadrao();
+
+        double temperaturaCelsius = 25;
+        double temperaturaFahrenheit = conversor2.celsiusParaFahrenheit(temperaturaCelsius);
+        System.out.println(temperaturaCelsius + " Celsius é igual a " + temperaturaFahrenheit + " Fahrenheit.");
+
+        temperaturaFahrenheit = 77;
+        temperaturaCelsius = conversor2.fahrenheitParaCelsius(temperaturaFahrenheit);
+        System.out.println(temperaturaFahrenheit + " Fahrenheit é igual a " + temperaturaCelsius + " Celsius.");
     }
 }
