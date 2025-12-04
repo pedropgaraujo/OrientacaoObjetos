@@ -1,4 +1,6 @@
-public class Servico implements Vendavel{
+package br.com.pedroaraujo.cdc.polimorfismo;
+
+public class Servico implements Vendavel {
     private String descricao;
     private double precoHora;
 

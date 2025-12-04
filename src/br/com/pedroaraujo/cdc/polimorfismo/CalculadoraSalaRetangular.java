@@ -1,4 +1,6 @@
-public class CalculadoraSalaRetangular implements CalculoGeometrico{
+package br.com.pedroaraujo.cdc.polimorfismo;
+
+public class CalculadoraSalaRetangular implements CalculoGeometrico {
     @Override
     public void calcularArea(double altura, double largura) {
         double area = altura * largura;

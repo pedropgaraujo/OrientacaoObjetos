@@ -1,3 +1,5 @@
+import br.com.pedroaraujo.cdc.polimorfismo.*;
+
 public class Main {
     public static void main(String[] args) {
         //1 - Crie uma classe Pessoa com um método que exibe "Olá, mundo!" no console.
@@ -45,16 +47,16 @@ public class Main {
         System.out.println(String.format("A pessoa de nome %s e ela e %s", idadePessoa.getNome(), idadePessoa.verificarIdade()));
 
         /*
-       3 - Desenvolva uma classe Produto com os atributos privados nome e preco.
+       3 - Desenvolva uma classe br.com.pedroaraujo.cdc.polimorfismo.Produto com os atributos privados nome e preco.
         Utilize métodos getters e setters para acessar e modificar esses atributos.
         Adicione um méto_do aplicarDesconto que recebe um valor percentual e reduz o preço do produto.
          */
         Produto produto = new Produto();
         produto.setNome("Monitor");
         produto.setPreco(100);
-        System.out.println(String.format("Produto: %s Valor: %.2f", produto.getNome(), produto.getPreco()));
+        System.out.println(String.format("br.com.pedroaraujo.cdc.polimorfismo.Produto: %s Valor: %.2f", produto.getNome(), produto.getPreco()));
         produto.aplicarDesconto(37.8);
-        System.out.println(String.format("Produto: %s Valor apos o desconto: %.2f", produto.getNome(), produto.getPreco()));
+        System.out.println(String.format("br.com.pedroaraujo.cdc.polimorfismo.Produto: %s Valor apos o desconto: %.2f", produto.getNome(), produto.getPreco()));
 
 
         /*

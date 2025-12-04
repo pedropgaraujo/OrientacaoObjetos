@@ -1,4 +1,6 @@
-public class ConversorMoeda implements ConversaoFinanceira{
+package br.com.pedroaraujo.cdc.polimorfismo;
+
+public class ConversorMoeda implements ConversaoFinanceira {
     @Override
     public void converterDolarParaReal(double valorDolar) {
         double cotacaoDolar = 4.80;

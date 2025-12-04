@@ -1,4 +1,6 @@
-public class ConversorTemperaturaPadrao implements ConversorTemperatura{
+package br.com.pedroaraujo.cdc.polimorfismo;
+
+public class ConversorTemperaturaPadrao implements ConversorTemperatura {
     @Override
     public double celsiusParaFahrenheit(double temperaturaCelsius) {
         return (temperaturaCelsius * 9 / 5) + 32;
