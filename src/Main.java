@@ -122,5 +122,6 @@ public class Main {
         temperaturaFahrenheit = 77;
         temperaturaCelsius = conversor2.fahrenheitParaCelsius(temperaturaFahrenheit);
         System.out.println(temperaturaFahrenheit + " Fahrenheit é igual a " + temperaturaCelsius + " Celsius.");
+
     }
 }
