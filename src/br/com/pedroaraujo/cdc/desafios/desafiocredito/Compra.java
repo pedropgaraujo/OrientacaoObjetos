@@ -1,4 +1,4 @@
-package br.com.pedroaraujo.cdc.desafios.desafioCredito;
+package br.com.pedroaraujo.cdc.desafios.desafiocredito;
 
 public class Compra implements Comparable<Compra>{
     private String nomeItem;

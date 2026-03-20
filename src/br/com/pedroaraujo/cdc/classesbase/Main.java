@@ -1,15 +1,17 @@
+package br.com.pedroaraujo.cdc.classesbase;
+
 import br.com.pedroaraujo.cdc.polimorfismo.*;
 
 public class Main {
     public static void main(String[] args) {
-        //1 - Crie uma classe Pessoa com um método que exibe "Olá, mundo!" no console.
+        //1 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.Pessoa com um método que exibe "Olá, mundo!" no console.
         Pessoa pessoa = new Pessoa();
         pessoa.exibeOla();
 
-        //2 - Crie uma classe Calculadora com um método que recebe um número como parâmetro e retorna o dobro desse número.
+        //2 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.Calculadora com um método que recebe um número como parâmetro e retorna o dobro desse número.
         Calculadora calculadora = new Calculadora();
         System.out.println("O dobro de 10 e: " + calculadora.dobrarNumero(10));
-        //3 - Crie uma classe Musica com atributos titulo, artista, anoLancamento, avaliacao e numAvaliacoes, e métodos para
+        //3 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.Musica com atributos titulo, artista, anoLancamento, avaliacao e numAvaliacoes, e métodos para
         // exibir a ficha técnica, avaliar a música e calcular a média de avaliações.
         Musica musica = new Musica();
         musica.setTitulo("The Door");
@@ -21,7 +23,7 @@ public class Main {
         musica.avaliarMusica(5.3);
         musica.calcularMediaAvaliacoes();
         musica.exibirFichaTecnica();
-        //4 - Crie uma classe Carro com atributos modelo, ano, cor e métodos para exibir a ficha técnica e calcular a idade do carro.
+        //4 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.Carro com atributos modelo, ano, cor e métodos para exibir a ficha técnica e calcular a idade do carro.
         Carro carro = new Carro();
 //        carro.modelo="Audi";
 //        carro.ano=2000;
@@ -29,15 +31,15 @@ public class Main {
         carro.exibirFichaCarro();
         carro.calcularIdade();
         carro.exibirFichaCarro();
-        //5 - Crie uma classe Aluno com atributos nome, idade, e um método para exibir informações. Crie uma instância da classe
-        // Aluno, atribua valores aos seus atributos e utilize o método para exibir as informações.
+        //5 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.Aluno com atributos nome, idade, e um método para exibir informações. Crie uma instância da classe
+        // br.com.pedroaraujo.cdc.classesbase.Aluno, atribua valores aos seus atributos e utilize o método para exibir as informações.
         Aluno aluno = new Aluno();
         aluno.setNome("Pedro");
         aluno.idade=28;
         aluno.exibeInformacoes();
 
         /*
-    2 - Crie uma classe IdadePessoa com os atributos privados nome e idade. Utilize métodos getters
+    2 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.IdadePessoa com os atributos privados nome e idade. Utilize métodos getters
     e setters para acessar e modificar esses atributos. Adicione um méto_do verificarIdade que imprime
     se a pessoa é maior de idade ou não.
  */
@@ -60,7 +62,7 @@ public class Main {
 
 
         /*
-        Desenvolva uma classe Aluno com os atributos privados nome e notas.
+        Desenvolva uma classe br.com.pedroaraujo.cdc.classesbase.Aluno com os atributos privados nome e notas.
         Utilize métodos getters e setters para acessar e modificar esses atributos.
         Adicione um méto_do calcularMedia que retorna a média das notas do aluno.
          */

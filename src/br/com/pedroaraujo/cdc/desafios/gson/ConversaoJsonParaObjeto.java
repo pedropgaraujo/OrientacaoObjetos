@@ -13,6 +13,6 @@ public class ConversaoJsonParaObjeto {
         Gson gson = new Gson();
         PessoaJson1 pessoa = gson.fromJson(jsonPessoa, PessoaJson1.class);
 
-        System.out.println("Objeto Pessoa: " + pessoa);
+        System.out.println("Objeto br.com.pedroaraujo.cdc.classesbase.Pessoa: " + pessoa);
     }
 }

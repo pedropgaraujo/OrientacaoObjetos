@@ -1,4 +1,4 @@
-package br.com.pedroaraujo.cdc.desafios.desafioCredito;
+package br.com.pedroaraujo.cdc.desafios.desafiocredito;
 
 import java.util.ArrayList;
 import java.util.List;

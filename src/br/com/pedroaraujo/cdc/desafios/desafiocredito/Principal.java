@@ -1,9 +1,6 @@
-package br.com.pedroaraujo.cdc.desafios.desafioCredito;
+package br.com.pedroaraujo.cdc.desafios.desafiocredito;
 
-import java.sql.SQLOutput;
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 //Checklist

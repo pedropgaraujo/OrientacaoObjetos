@@ -1,3 +1,5 @@
+package br.com.pedroaraujo.cdc.classesbase;
+
 public class Gato extends Animal{
     @Override
     public void emitirSom(){

@@ -1,4 +1,6 @@
-//4 - Crie uma classe Carro com atributos modelo, ano, cor e métodos para exibir a ficha técnica e calcular a idade
+package br.com.pedroaraujo.cdc.classesbase;
+
+//4 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.Carro com atributos modelo, ano, cor e métodos para exibir a ficha técnica e calcular a idade
 // do carro.
 public class Carro {
     private String modelo;

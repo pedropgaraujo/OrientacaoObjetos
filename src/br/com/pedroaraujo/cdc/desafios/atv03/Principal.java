@@ -13,18 +13,18 @@ public class Principal {
         for (String elemento : listaString) {
             System.out.println(elemento);
         }
-// 2 - Crie uma classe Animal e uma classe Cachorro que herda de Animal. Em seguida, crie um objeto da classe Cachorro e faça o casting para a classe Animal
-        //Cachorro cachorro = new Cachorro();
-        //Animal animal = (Animal) cachorro;
+// 2 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.Animal e uma classe br.com.pedroaraujo.cdc.classesbase.Cachorro que herda de br.com.pedroaraujo.cdc.classesbase.Animal. Em seguida, crie um objeto da classe br.com.pedroaraujo.cdc.classesbase.Cachorro e faça o casting para a classe br.com.pedroaraujo.cdc.classesbase.Animal
+        //br.com.pedroaraujo.cdc.classesbase.Cachorro cachorro = new br.com.pedroaraujo.cdc.classesbase.Cachorro();
+        //br.com.pedroaraujo.cdc.classesbase.Animal animal = (br.com.pedroaraujo.cdc.classesbase.Animal) cachorro;
 
         Animal animal = new Cachorro();
 // 3 - Modifique o Exercício 2 para incluir uma verificação usando instanceof para garantir que o objeto seja do tipo correto antes de fazer o casting.
 
         if (animal instanceof Cachorro) {
             Cachorro cachorro = (Cachorro) animal;
-            // Agora você pode usar o objeto 'cachorro' como um Cachorro.
+            // Agora você pode usar o objeto 'cachorro' como um br.com.pedroaraujo.cdc.classesbase.Cachorro.
         } else {
-            System.out.println("O objeto não é um Cachorro.");
+            System.out.println("O objeto não é um br.com.pedroaraujo.cdc.classesbase.Cachorro.");
         }
 //4 - Crie uma classe Produto com propriedades como nome e preço. Em seguida, crie uma lista de produtos e utilize um loop para calcular e imprimir o preço médio dos produtos.
         Produto produto1 = new Produto("Ar condicionado", 2000.0);
@@ -59,7 +59,7 @@ public class Principal {
         for (Forma forma : listaFormas) {
             System.out.println("Área: " + forma.calcularArea());
         }
-// 6 - Crie uma classe ContaBancaria com propriedades como número da conta e saldo. Em seguida, crie uma lista de contas bancárias com diferentes saldos. Utilize um loop para encontrar e imprimir a conta com o maior saldo.
+// 6 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.ContaBancaria com propriedades como número da conta e saldo. Em seguida, crie uma lista de contas bancárias com diferentes saldos. Utilize um loop para encontrar e imprimir a conta com o maior saldo.
 
         ContaBancaria conta1 = new ContaBancaria(101, 1500.0);
         ContaBancaria conta2 = new ContaBancaria(102, 2500.0);

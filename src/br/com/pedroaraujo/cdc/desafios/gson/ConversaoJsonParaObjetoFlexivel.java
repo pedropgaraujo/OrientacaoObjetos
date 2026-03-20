@@ -13,6 +13,6 @@ public class ConversaoJsonParaObjetoFlexivel {
         Gson gson = new GsonBuilder().setLenient().create();
         PessoaJson2 pessoa = gson.fromJson(jsonPessoa, PessoaJson2.class);
 
-        System.out.println("Objeto Pessoa: " + pessoa);
+        System.out.println("Objeto br.com.pedroaraujo.cdc.classesbase.Pessoa: " + pessoa);
     }
 }

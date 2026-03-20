@@ -1,5 +1,5 @@
-/*
-    2 - Crie uma classe IdadePessoa com os atributos privados nome e idade. Utilize métodos getters
+package br.com.pedroaraujo.cdc.classesbase;/*
+    2 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.IdadePessoa com os atributos privados nome e idade. Utilize métodos getters
     e setters para acessar e modificar esses atributos. Adicione um méto_do verificarIdade que imprime
     se a pessoa é maior de idade ou não.
  */

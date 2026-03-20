@@ -1,4 +1,6 @@
-//3 - Crie uma classe Musica com atributos titulo, artista, anoLancamento, avaliacao e numAvaliacoes, e métodos para
+package br.com.pedroaraujo.cdc.classesbase;
+
+//3 - Crie uma classe br.com.pedroaraujo.cdc.classesbase.Musica com atributos titulo, artista, anoLancamento, avaliacao e numAvaliacoes, e métodos para
 // exibir a ficha técnica, avaliar a música e calcular a média de avaliações.
 public class Musica {
     private String titulo;
